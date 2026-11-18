@@ -2,6 +2,10 @@
 
 Flutter application source for voice analysis and Agora audio calls, with a bundled TensorFlow Lite voice-spoofing model.
 
+## Android download
+
+Download the [AuthentiCall Android preview APK](https://github.com/Karanjain487l/authenticall/releases/download/v1.0.0-preview.1/authenticall.apk) (about 309 MB), or read the [release notes and installation instructions](https://github.com/Karanjain487l/authenticall/releases/tag/v1.0.0-preview.1). Requires Android 7.0 or newer. This is an owner-supplied demo build; its exact correspondence to this source snapshot has not been verified.
+
 ## Status
 
 This repository now contains the app project identified by its owner as the source used for the app installed on their phone. It replaces the unrelated Flutter counter scaffold previously published here.
@@ -73,4 +77,4 @@ Keep channel tokens, certificates, signing keys, and other credentials out of Gi
 
 ## Limitations
 
-Use this project as a research prototype. A voice score is not identity verification or a guarantee that a call is safe. Live-call accuracy and the research results need verification with the exact matching model and evaluation protocol. No APK release is published as part of this source update.
+Use this project as a research prototype. A voice score is not identity verification or a guarantee that a call is safe. Live-call accuracy and the research results need verification with the exact matching model and evaluation protocol. An owner-supplied Android APK is available as a preview release; it is not a verified rebuild of this source snapshot.
