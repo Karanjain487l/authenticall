@@ -1,0 +1,38 @@
+{
+  "weights": "REAL (v2=authenticall_v2_best.pth, v3=authenticall_v3_best.pth)",
+  "fusion_weight_on_v2": 0.5,
+  "raw_window_samples": 64000,
+  "input_seconds": 5.0,
+  "onnx_bytes": 10160730,
+  "tflite_float32": {
+    "path": "/kaggle/working/mobile/authenticall_ens_mobile_float32.tflite",
+    "bytes": 9154888,
+    "inputs": [
+      {
+        "name": "pcm",
+        "shape": [
+          1,
+          80000
+        ],
+        "dtype": "float32"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "spoof_prob",
+        "shape": [
+          1,
+          1
+        ],
+        "dtype": "float32"
+      }
+    ]
+  },
+  "tflite_float16": null,
+  "torch_vs_tflite_max_abs_diff": 6.51925802230835e-09,
+  "latency_ms_this_machine": {
+    "mean": 58.46,
+    "p95": 63.57
+  },
+  "expected_dev_eer_percent": 16.92
+}

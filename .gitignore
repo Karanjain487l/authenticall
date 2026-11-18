@@ -47,15 +47,17 @@ app.*.map.json
 # Widget Preview related
 .widget_preview/
 
-# Local environment and signing credentials
+# Credentials and local configuration
 .env
 .env.*
 !.env.example
 *.jks
 *.keystore
-*.p12
-*.pfx
 *.pem
 *.key
+*.p12
+*.pfx
 key.properties
 local.properties
+**/.gradle/
+**/build/
